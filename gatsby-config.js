@@ -1,78 +1,82 @@
 const siteMetadata = {
-    title: `Elemental`,
-    siteUrl: `http://localhost`,
+    title: `steffie harner`,
+    siteUrl: `http://www.steffieharner.com`,
     capitalizeTitleOnHome: true,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-    author: `@_akzhy`,
+    introTag: `FREELANCE MODEL | CREATIVE DEVELOPER`,
+    description: `freelance model & creative developer in Tokyo, Japan`,
+    author: `@steffieharner`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
     switchTheme: true,
     navLinks: [
         {
-            name: "HOME",
+            name: "home",
             url: "/"
         },
         {
-            name: "ABOUT",
+            name: "about",
             url: "/about"
         },
         {
-            name: "BLOG",
+            name: "blog",
             url: "/blog"
         },
         {
-            name: "PORTFOLIO",
+            name: "portfolio",
             url: "/portfolio"
         },
         {
-            name: "CONTACT",
+            name: "art",
+            url: "/art"
+        },
+        {
+            name: "contact",
             url: "/contact"
         }
     ],
     footerLinks: [
         {
-            name: "PRIVACY POLICY",
+            name: "privacy policy",
             url: "/privacy-policy"
-        },
-        {
-            name: "GitHub",
-            url: "https://github.com/akzhy/gatsby-starter-elemental"
         }
     ],
     social: [
         {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "#"
+            url: "https://www.facebook.com/steffieharner"
         },
         {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "#"
+            url: "https://www.twitter.com/steffieharner"
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "#"
+            url: "https://www.instagram.com/steffieharner"
         },
         {
             name: "Youtube",
             icon: "/images/Youtube.svg",
-            url: "#"
+            url: "https://www.youtube.com/steffieharner"
+        },
+        {
+            name: "Tiktok",
+            icon: "/images/Youtube.svg",
+            url: "https://www.tiktok.com/@steffieharner"
         }
     ],
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
         api_url: "./test.json",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
+        description: `feel free to email me for my business rates and collaboration requests. \n \n よろしくお願いしす。`,
+        mail: "hi@steffieharner.com",
+        address: "NEO-TOKYO, JAPAN"
     }
     // this is optional. you can uncomment this if you use disqus
     // disqus: `your-disqus-shortname`
@@ -108,16 +112,16 @@ const plugins = [
         options: {
             strictMath: true
         }
-    },
-]
+    }
+];
 
-if(siteMetadata.disqus) {
+if (siteMetadata.disqus) {
     plugins.push({
         resolve: `gatsby-plugin-disqus`,
         options: {
-          shortname: siteMetadata.disqus
+            shortname: siteMetadata.disqus
         }
-    })
+    });
 }
 
 module.exports = {
