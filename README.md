@@ -47,19 +47,19 @@ let siteMetadata = {
     // The links shown on the navbar and footer, follow the same structure to add or remove more items.
     navLinks: [
         {
-            name: "HOME",
+            name: "home",
             url: "/"
         },
         {
-            name: "ABOUT",
+            name: "about",
             url: "/about"
         },
         {
-            name: "BLOG",
+            name: "blog",
             url: "/blog"
         },
         {
-            name: "PORTFOLIO",
+            name: "portfolio",
             url: "/portfolio"
         },
         {
@@ -68,12 +68,7 @@ let siteMetadata = {
         }
     ],
     // Same as navbar links, except these are shown on the footer
-    footerLinks: [
-        {
-            name: "privacy policy",
-            url: "/privacy-policy"
-        }
-    ],
+    footerLinks: [],
     // Your social profile links. The icons of the given social medias are available in the static folder. If you are adding a new item, include the icon in the static/images folder.
     social: [
         {

@@ -38,12 +38,7 @@ const siteMetadata = {
             url: "/contact"
         }
     ],
-    footerLinks: [
-        {
-            name: "privacy policy",
-            url: "/privacy-policy"
-        }
-    ],
+    footerLinks: [],
     social: [
         {
             name: "Facebook",

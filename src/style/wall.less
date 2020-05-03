@@ -1,4 +1,58 @@
 .wall {
+	animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	/* Firefox */
+	-webkit-animation: fadein 2s;
+	/* Safari and Chrome */
+	-o-animation: fadein 2s;
+	/* Opera */
+
+	@keyframes fadein {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	@-moz-keyframes fadein {
+
+		/* Firefox */
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes fadein {
+
+		/* Safari and Chrome */
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	@-o-keyframes fadein {
+
+		/* Opera */
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
 	display: flex;
 	align-items: center;
 	flex-wrap: nowrap;
@@ -34,14 +88,15 @@
 
 			li {
 				margin: 5px 0;
+
 				img {
 					opacity: 0.7;
 					width: 48px;
 					transition: opacity .25s;
 				}
 
-				&:hover{
-					img{
+				&:hover {
+					img {
 						opacity: 1;
 					}
 				}
@@ -51,20 +106,20 @@
 }
 
 @media only screen and (max-width: 800px) {
-  	.wall{
-		.main-title{
-			svg{
+	.wall {
+		.main-title {
+			svg {
 				height: 100px;
 			}
 		}
 
-		.social-buttons{
+		.social-buttons {
 			display: none;
 		}
-		
+
 		svg text {
-		    font: bold 14px sans-serif;
-		    font-family: 'Work Sans', sans-serif;
+			font: bold 14px sans-serif;
+			font-family: 'Work Sans', sans-serif;
 		}
 	}
 }
