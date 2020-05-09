@@ -68,7 +68,6 @@ let siteMetadata = {
         }
     ],
     // Same as navbar links, except these are shown on the footer
-    footerLinks: [],
     // Your social profile links. The icons of the given social medias are available in the static folder. If you are adding a new item, include the icon in the static/images folder.
     social: [
         {
