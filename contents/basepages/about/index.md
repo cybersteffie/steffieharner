@@ -1,5 +1,5 @@
 ---
-title: about
+title: About
 template: basepage
 image: ./image.png
 ---

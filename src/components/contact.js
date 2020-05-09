@@ -121,7 +121,7 @@ class Contact extends React.Component {
                                 <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
-                                            name 名前
+                                            Name
                                         </span>
                                         <div className="input-border">
                                             <input
@@ -138,7 +138,7 @@ class Contact extends React.Component {
                                 <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
-                                            email メール
+                                            Email
                                         </span>
                                         <div className="input-border">
                                             <input
@@ -155,7 +155,7 @@ class Contact extends React.Component {
                                 <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
-                                            message メッセージ
+                                            Message
                                         </span>
                                         <div className="input-border">
                                             <textarea
@@ -173,7 +173,7 @@ class Contact extends React.Component {
                                     </label>
                                 </div>
                                 <div className="field">
-                                    <label className="ib center">
+                                    <label className="ib">
                                         <button
                                             className={
                                                 "btn" +

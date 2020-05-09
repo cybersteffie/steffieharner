@@ -45,9 +45,14 @@ let siteMetadata = {
     darkmode: true, // Whether to enable the darkmode. Change to false if you want the light mode
     switchTheme: true, // Whether to show a switch theme button on the navbar
     // The links shown on the navbar and footer, follow the same structure to add or remove more items.
+<<<<<<< HEAD
     navLinks: [
         {
             name: "home",
+=======
+    navLinks: [{
+            name: "HOME",
+>>>>>>> parent of c6cfe02... customizations
             url: "/"
         },
         {
@@ -63,14 +68,17 @@ let siteMetadata = {
             url: "/portfolio"
         },
         {
-            name: "contact",
+            name: "CONTACT",
             url: "/contact"
         }
     ],
     // Same as navbar links, except these are shown on the footer
+    footerLinks: [{
+        name: "PRIVACY POLICY",
+        url: "/privacy-policy"
+    }],
     // Your social profile links. The icons of the given social medias are available in the static folder. If you are adding a new item, include the icon in the static/images folder.
-    social: [
-        {
+    social: [{
             name: "Facebook",
             icon: "/images/Facebook.svg",
             url: "#"
@@ -101,7 +109,8 @@ let siteMetadata = {
     }
     // this is optional. you can uncomment this if you use disqus
     // disqus: `your-disqus-shortname`
-};
+}
+
 ```
 
 **NOTE**
