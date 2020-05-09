@@ -9,7 +9,7 @@ const siteMetadata = {
     description: `freelance model & creative developer in Tokyo, Japan`,
     author: `@steffieharner`,
     blogItemsPerPage: 10,
-    portfolioItemsPerPage: 10,
+    modelItemsPerPage: 10,
     darkmode: true,
     switchTheme: true,
     navLinks: [
@@ -26,7 +26,7 @@ const siteMetadata = {
             url: "/blog"
         },
         {
-            name: "portfolio",
+            name: "model",
             url: "/portfolio"
         },
         {
