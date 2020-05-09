@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import SEO from "../components/seo";
 import SocialLinks from "../components/sociallinks";
 import PortfolioList from "../components/list-portfolio";
-import BlogList from "../components/list-blog";
+// import BlogList from "../components/list-blog";
 import Contact from "../components/contact";
 import "../style/wall.less";
 
@@ -27,7 +27,7 @@ class IndexPage extends React.Component {
     }
 
     componentDidMount() {
-        this.setWindowHeight();
+        // this.setWindowHeight();
 
         window.addEventListener("resize", this.setWindowHeight);
 
@@ -66,11 +66,11 @@ class IndexPage extends React.Component {
         }
     }
 
-    setWindowHeight() {
-        this.setState({
-            winHeight: window.innerHeight
-        });
-    }
+    // setWindowHeight() {
+    //     this.setState({
+    //         winHeight: window.innerHeight
+    //     });
+    // }
 
     render() {
         return (
@@ -146,7 +146,7 @@ class IndexPage extends React.Component {
                     </div>
                 </div>
                 <PortfolioList />
-                <BlogList />
+                {/* <BlogList /> */}
                 <Contact />
             </Layout>
         );

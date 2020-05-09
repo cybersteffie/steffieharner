@@ -31,7 +31,7 @@ class BlogList extends React.Component {
 export default function({ data, pageContext }) {
     return (
         <Layout>
-            <SEO lang="en" title="Blog" />
+            <SEO lang="en" title="blog" />
             <BlogList datas={data} pageContext={pageContext} />
         </Layout>
     );

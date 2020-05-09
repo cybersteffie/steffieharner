@@ -1,78 +1,74 @@
 const siteMetadata = {
-    title: `Elemental`,
+    title: `Steffiie Harner`,
     siteUrl: `http://localhost`,
-    capitalizeTitleOnHome: true,
+    capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-    author: `@_akzhy`,
+    introTag: `freelance model | software engineer`,
+    description: `Tokyo-based cyberpunk-obsessed, freelance model & software engineer. よろしくお願いします。`,
+    author: `@steffieharner`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
     switchTheme: true,
     navLinks: [
         {
-            name: "HOME",
+            name: "home",
             url: "/"
         },
         {
-            name: "ABOUT",
+            name: "about",
             url: "/about"
         },
-        {
-            name: "BLOG",
-            url: "/blog"
-        },
+        // {
+        //     name: "blog",
+        //     url: "/blog"
+        // },
         {
             name: "portfolio",
             url: "/portfolio"
         },
         {
-            name: "CONTACT",
+            name: "contact",
             url: "/contact"
         }
     ],
     footerLinks: [
-        {
-            name: "PRIVACY POLICY",
-            url: "/privacy-policy"
-        },
-        {
-            name: "GitHub",
-            url: "https://github.com/akzhy/gatsby-starter-elemental"
-        }
+        // {
+        //     name: "PRIVACY POLICY",
+        //     url: "/privacy-policy"
+        // }
     ],
     social: [
         {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "#"
+            url: "https://wwww.facebook.com/steffieharner"
         },
         {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "#"
+            url: "https://wwww.twitter.com/steffieharner"
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "#"
+            url: "https://wwww.instagram.com/steffieharner"
         },
         {
             name: "Youtube",
             icon: "/images/Youtube.svg",
-            url: "#"
+            url: "https://wwww.youtube.com/steffieharner"
         }
     ],
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
         api_url: "./test.json",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
+        mail: "hi@steffieharner.com",
         phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
+        address: "NEO-TOKYO, JAPAN"
     }
     // this is optional. you can uncomment this if you use disqus
     // disqus: `your-disqus-shortname`

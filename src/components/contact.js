@@ -55,11 +55,11 @@ class Contact extends React.Component {
                         this.resMessage.style.opacity = 1;
                         if (result.response === "error") {
                             this.resMessage.innerHTML =
-                                "There was an error in sending the message";
+                                "oops, there was an error in sending the message";
                             this.resMessage.classList.add("color-error");
                         } else {
                             this.resMessage.innerHTML =
-                                "Message sent succesfully";
+                                "success! you sent me a message";
                             this.resMessage.classList.remove("color-error");
                         }
                         this.dataName.value = "";
@@ -71,7 +71,8 @@ class Contact extends React.Component {
                         }, 5000);
                     },
                     error => {
-                        this.resMessage.innerHTML = "Message sent succesfully";
+                        this.resMessage.innerHTML =
+                            "success! you sent me a message";
                         this.resMessage.classList.remove("color-error");
                         this.setState({
                             submitDisabled: false
@@ -121,7 +122,7 @@ class Contact extends React.Component {
                                 <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
-                                            Name
+                                            name
                                         </span>
                                         <div className="input-border">
                                             <input
@@ -138,7 +139,7 @@ class Contact extends React.Component {
                                 <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
-                                            Email
+                                            email
                                         </span>
                                         <div className="input-border">
                                             <input
@@ -155,7 +156,7 @@ class Contact extends React.Component {
                                 <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
-                                            Message
+                                            message
                                         </span>
                                         <div className="input-border">
                                             <textarea
