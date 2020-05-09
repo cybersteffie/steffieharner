@@ -1,6 +1,6 @@
 ---
 title: CYBERPUNK PORTRAITS
-description: concept photography set in the dystopian future, self-portraits & collaborations with other artists
+description: concept photography set in the dystopian future
 date: 2019-06-28
 template: portfolio
 image: ./image.jpg

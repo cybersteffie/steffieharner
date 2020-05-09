@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./sectiontitle";
 import { StaticQuery, graphql } from "gatsby";
-import { PaperPlane, Mapmarker, Mobile, Envelope, Loading } from "./icons";
+import { PaperPlane, Mapmarker, Envelope, Loading } from "./icons";
 import SocialLinks from "./sociallinks";
 import "../style/contact.less";
 
@@ -248,7 +248,7 @@ class Contact extends React.Component {
                                     </a>
                                 </li>
                             )}
-                            {this.props.contact.phone && (
+                            {/* {this.props.contact.phone && (
                                 <li className="text-secondary item">
                                     <span className="icon">
                                         <Mobile />
@@ -257,7 +257,7 @@ class Contact extends React.Component {
                                         {this.props.contact.phone}
                                     </a>
                                 </li>
-                            )}
+                            )} */}
                             {this.props.contact.address && (
                                 <li
                                     className="text-tertiary item"
@@ -290,8 +290,6 @@ export default () => (
                             api_url
                             description
                             mail
-                            phone
-                            address
                         }
                     }
                 }

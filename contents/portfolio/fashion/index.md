@@ -1,6 +1,6 @@
 ---
 title: FASHION PORTRAITS
-description: elegant portraits
+description: fine art & haute couture photography
 date: 2019-06-28
 template: portfolio
 image: ./image.jpg

@@ -1,12 +1,12 @@
 const siteMetadata = {
-    title: `Steffiie Harner`,
+    title: `STEFFIE HARNER`,
     siteUrl: `http://localhost`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `freelance model | software engineer`,
-    description: `Tokyo-based cyberpunk-obsessed, freelance model & software engineer. よろしくお願いします。`,
+    introTag: `tokyo-based model | software developer`,
+    description: `Tokyo-based cyberpunk-obsessed, freelance model & software engineer. \n\n よろしくお願いします。`,
     author: `@steffieharner`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -64,11 +64,9 @@ const siteMetadata = {
     ],
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
-        api_url: "./test.json",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@steffieharner.com",
-        phone: "000-000-0000",
-        address: "NEO-TOKYO, JAPAN"
+        api_url: "",
+        description: `for model rates, business inquiries, collaboration requests ー by email only please! `,
+        mail: "hi@steffieharner.com"
     }
     // this is optional. you can uncomment this if you use disqus
     // disqus: `your-disqus-shortname`
