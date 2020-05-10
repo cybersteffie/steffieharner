@@ -42,9 +42,14 @@ const siteMetadata = {
     ],
     social: [
         {
+            name: "Instagram",
+            icon: "/images/Instagram.svg",
+            url: "https://www.instagram.com/steffieharner"
+        },
+        {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "https://wwww.facebook.com/steffieharner"
+            url: "https://www.facebook.com/steffieharner"
         },
         {
             name: "Twitter",
@@ -52,14 +57,14 @@ const siteMetadata = {
             url: "https://www.twitter.com/steffieharner"
         },
         {
-            name: "Instagram",
-            icon: "/images/Instagram.svg",
-            url: "https://www.instagram.com/steffieharner"
-        },
-        {
             name: "Youtube",
             icon: "/images/Youtube.svg",
             url: "https://www.youtube.com/steffieharner"
+        },
+        {
+            name: "Github",
+            icon: "/images/Github.svg",
+            url: "https://www.github.com/steffieharner"
         }
     ],
     contact: {
