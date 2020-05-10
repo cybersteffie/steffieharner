@@ -1,6 +1,6 @@
 const siteMetadata = {
-    title: `STEFFIE HARNER`,
-    siteUrl: `http://localhost`,
+    title: `STEFFIE HARNER | Tokyo-based cyberpunk model & software engineer`,
+    siteUrl: `https://steffieharner.netlify.com`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
