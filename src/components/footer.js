@@ -34,8 +34,8 @@ export default function() {
                     <FooterLinks />
                 </div> */}
                 <p className="text-primary f-d">
-                    COPYRIGHT &copy; {query.site.siteMetadata.title}{" "}
-                    {new Date().getFullYear()}
+                    COPYRIGHT &copy; STEFFIE HARNER{" "}
+                    {" " + new Date().getFullYear()}
                 </p>
             </div>
         </footer>
