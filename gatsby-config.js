@@ -49,17 +49,17 @@ const siteMetadata = {
         {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "https://wwww.twitter.com/steffieharner"
+            url: "https://www.twitter.com/steffieharner"
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "https://wwww.instagram.com/steffieharner"
+            url: "https://www.instagram.com/steffieharner"
         },
         {
             name: "Youtube",
             icon: "/images/Youtube.svg",
-            url: "https://wwww.youtube.com/steffieharner"
+            url: "https://www.youtube.com/steffieharner"
         }
     ],
     contact: {
