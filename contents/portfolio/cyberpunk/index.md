@@ -28,8 +28,8 @@ image: ./image.jpg
 
 [row][col]![ALt](./33.jpg)[/col][/row]
 
+[row][col]![ALt](./38.jpg)[/col][/row]
 [row][col]![Alt](./20.jpg "Steffie Harner x Akira Harigae | Demon Kitsune")[/col][col]![Alt](./2.jpg "Steffie Harner x Akira Harigae | Cyberpunk Universe")[/col][/row]
-
 [row][col]![ALt](./36.jpg)[/col][/row]
 
 [row][col]![Alt](./16.jpg)[/col][col]![image](./7.jpg)[/col][/row]
@@ -48,6 +48,8 @@ image: ./image.jpg
 [row][col]![Alt](./26.jpg "Steffie Harner x @future_vizion | Spiritual Machines Cyberpunk FIlm")[/col][/row]
 
 [row][col]![Alt](./29.jpg "Steffie Harner in Spiritual Machines: Cyberpunk Shortfilm")[/col][col]![Alt](./31.jpg "Steffie Harner in Spiritual Machines: Cyberpunk Shortfilm")[/col][/row]
+
+[row][col]![Alt](./39.jpg "Steffie Harner x Steffen Yoshiki | Cyberpunk Boudoir")[/col][col]![Alt](./40.jpg "Steffie Harner x Steffen Yoshiki | Cyberpunk Boudoir")[/col][/row]
 
 [row][col]![Alt](./30.jpg "Steffie Harner in Spiritual Machines: Cyberpunk Shortfilm")[/col][/row]
 
