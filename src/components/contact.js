@@ -120,7 +120,7 @@ class Contact extends React.Component {
                         <div className="col s12 m6">
                             <form>
                                 <div className="field">
-                                    <label>
+                                    <label for="name">
                                         <span className="label text-tertiary">
                                             name
                                         </span>
@@ -137,7 +137,7 @@ class Contact extends React.Component {
                                     </label>
                                 </div>
                                 <div className="field">
-                                    <label>
+                                    <label for="email">
                                         <span className="label text-tertiary">
                                             email
                                         </span>
@@ -154,7 +154,7 @@ class Contact extends React.Component {
                                     </label>
                                 </div>
                                 <div className="field">
-                                    <label>
+                                    <label for="message">
                                         <span className="label text-tertiary">
                                             message
                                         </span>
@@ -174,7 +174,7 @@ class Contact extends React.Component {
                                     </label>
                                 </div>
                                 <div className="field">
-                                    <label className="ib">
+                                    <label for="submit" className="ib">
                                         <button
                                             className={
                                                 "btn" +
@@ -211,12 +211,10 @@ class Contact extends React.Component {
                                             </span>
                                         </button>
                                     </label>
-                                    <label>
-                                        <p
-                                            className="res-message"
-                                            ref={c => (this.resMessage = c)}
-                                        ></p>
-                                    </label>
+                                    <p
+                                        className="res-message"
+                                        ref={c => (this.resMessage = c)}
+                                    ></p>
                                 </div>
                             </form>
                         </div>
