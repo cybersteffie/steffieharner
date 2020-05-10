@@ -2,7 +2,6 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Date from "../components/date";
 import { Row, Col } from "../components/page-components/grid";
 import MD from "gatsby-custom-md";
 import "../style/portfolio-singlepage.less";
@@ -24,10 +23,10 @@ export default function({ data }) {
             <div className="container">
                 <article className="portfolio-post">
                     <div className="head text-primary">
-                        <h1>{data.markdownRemark.frontmatter.title}</h1>
+                        {/* <h1>{data.markdownRemark.frontmatter.title}</h1>
                         <p className="post-date">
                             <Date data={data.markdownRemark.frontmatter.date} />
-                        </p>
+                        </p> */}
                     </div>
                     <div className="content row flex">
                         <div className="col s12">

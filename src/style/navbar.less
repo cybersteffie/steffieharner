@@ -9,7 +9,6 @@ nav {
 	align-items: center;
 	z-index: 99;
 	transition: height .25s;
-	font-family: @fontBold;
 
 	#menu-open {
 		position: absolute;
@@ -22,18 +21,18 @@ nav {
 		}
 	}
 
-	img {
-		width: 46px;
+	.logo {
+		width: 100px;
 		height: auto;
 		align-items: center;
 		transition: width 0.25s;
 	}
 
 	&.scrolled {
-		padding: 12px 36px;
+		padding: 11px 22px;
 
 		img {
-			width: 34px;
+			width: 80px;
 		}
 	}
 
@@ -43,14 +42,10 @@ nav {
 		li {
 			display: inline-block;
 			vertical-align: middle;
-			margin: 0 5px;
 
 			a {
-				margin: 0 5px;
+				margin: 0 10px;
 				position: relative;
-				display: inline-block;
-				font-family: @fontBold  !important;
-
 
 				&:before {
 					content: "";
@@ -60,6 +55,7 @@ nav {
 					left: 50%;
 					top: 50%;
 					transform: translate(-50%, -50%) scale(0);
+					border-radius: 50%;
 					opacity: 0.2;
 					transition: transform 0.25s;
 				}
@@ -74,7 +70,6 @@ nav {
 					position: relative;
 					z-index: 2;
 				}
-
 			}
 
 			&.switch-theme {
@@ -150,7 +145,7 @@ nav {
 			flex: 0 0 auto;
 
 			img {
-				width: 22px;
+				width: 150px;
 			}
 		}
 
@@ -159,7 +154,6 @@ nav {
 			padding: 20px 0;
 			display: flex;
 			align-items: center;
-			font-family: @fontBold bold !important;
 
 			ul {
 				list-style: none;
