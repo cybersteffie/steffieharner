@@ -5,7 +5,7 @@ const siteMetadata = {
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `tokyo-based model | software developer`,
+    introTag: `tokyo-based model | junior software developer`,
     description: `Tokyo-based cyberpunk-obsessed, freelance model & software engineer. \n\n よろしくお願いします。`,
     author: `@steffieharner`,
     blogItemsPerPage: 10,
