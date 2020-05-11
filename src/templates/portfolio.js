@@ -23,8 +23,8 @@ export default function({ data }) {
             <div className="container">
                 <article className="portfolio-post">
                     <div className="head text-primary">
-                        {/* <h1>{data.markdownRemark.frontmatter.title}</h1>
-                        <p className="post-date">
+                        <h1>{data.markdownRemark.frontmatter.title}</h1>
+                        {/* <p className="post-date">
                             <Date data={data.markdownRemark.frontmatter.date} />
                         </p> */}
                     </div>

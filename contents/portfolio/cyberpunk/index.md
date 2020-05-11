@@ -6,7 +6,7 @@ template: portfolio
 image: ./image.jpg
 ---
 
-[row][col]![Alt](./4.jpg "Steffie Harner x Nigal Raymond")[/col][col]![Alt](./2.jpg "Steffie Harner x Akira Harigae")[/col][/row]
+[row][col]![Alt](./4.jpg "Steffie Harner x Nigal Raymond")[/col][col]![Alt](./41.png "Steffie Harner x Nigal Raymond")[/col][/row]
 
 [row][col]![Alt](./6.jpg "Steffie Harner x Kevin Douglas | Kabukicho")[/col][/row]
 
