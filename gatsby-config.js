@@ -78,7 +78,15 @@ const siteMetadata = {
 };
 
 const plugins = [
-    `gatsby-plugin-sharp`,
+    {
+        resolve: `gatsby-plugin-sharp`,
+        options: {
+            useMozJpeg: false,
+            stripMetadata: true,
+            defaultQuality: 75,
+            duotone: true
+        }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     {

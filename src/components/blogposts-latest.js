@@ -22,7 +22,7 @@ export default function(props) {
                                 childImageSharp {
                                     fluid(maxWidth: 1920) {
                                         srcSet
-                                        ...GatsbyImageSharpFluid
+                                        ...GatsbyImageSharpFluid_tracedSVG
                                     }
                                     id
                                 }
