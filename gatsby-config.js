@@ -97,7 +97,11 @@ const plugins = [
                 {
                     resolve: `gatsby-remark-images`,
                     options: {
-                        maxWidth: 1280
+                        maxWidth: 1280,
+                        tracedSVG: {
+                            color: "#f36fda",
+                            turnPolicy: "TURNPOLICY_MAJORITY"
+                        }
                     }
                 }
             ]

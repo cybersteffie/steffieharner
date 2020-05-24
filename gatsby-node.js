@@ -14,7 +14,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 };
 
 exports.createSchemaCustomization = ({ actions }) => {
-    const { createTypes } = actions
+    const { createTypes } = actions;
     const typeDefs = `
       type Site implements Node {
         siteMetadata: SiteMetaData
@@ -22,14 +22,14 @@ exports.createSchemaCustomization = ({ actions }) => {
       type SiteMetaData {
         disqus: String
       }
-    `
-    createTypes(typeDefs)
+    `;
+    createTypes(typeDefs);
 
     /*const { createTypes } = actions;
     const typeDefs = [
         `type Site implements Node { SiteMetadata: SiteMetaData }`,
         schema.buildObjectType({
-            name: "SiteMetadata",
+            name: "SiteMetadata",¡
             fields: {
                 name: "String!",
                 firstName: "String!",
@@ -42,7 +42,7 @@ exports.createSchemaCustomization = ({ actions }) => {
             interfaces: ["Node"]
         })
     ];*/
-}
+};
 
 exports.createPages = ({ graphql, actions }) => {
     const { createPage } = actions;
