@@ -20,6 +20,7 @@
 		"gatsby-transformer-sharp": "^2.2.0",
 		"less": "^3.9.0",
 		"netlify-cli": "^2.50.0",
+		"netlify-plugin-minify-html": "^0.2.2",
 		"prop-types": "^15.7.2",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",

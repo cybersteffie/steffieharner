@@ -6,6 +6,8 @@ template: portfolio
 image: ./image.jpg
 ---
 
+I get my inspiration from many of my shoots from character designs and art-styles from the video games, manga, and anime that influenced me growing up.
+
 [row][col]![Alt](./4.jpg "Steffie Harner x Nigal Raymond")[/col][col]![Alt](./41.png "Steffie Harner x Nigal Raymond")[/col][/row]
 
 [row][col]![Alt](./6.jpg "Steffie Harner x Kevin Douglas | Kabukicho")[/col][/row]
