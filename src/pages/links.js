@@ -10,6 +10,14 @@ export default function() {
             <div style={{ minHeight: "600px", textAlign: "center" }}>
                 <div>
                     <a
+                        href="https://ko-fi.com/steffieharner"
+                        className="btn"
+                    >
+                        BUY ME ☕
+                    </a>
+                </div>
+                <div>
+                    <a
                         href="https://www.twitter.com/steffieharner"
                         className="btn"
                     >
@@ -34,7 +42,7 @@ export default function() {
                 </div>
                 <div>
                     <a
-                        href="https://www.facebook.com/steffieharner"
+                        href="https://www.facebook.com/steffieharnerofficial"
                         className="btn"
                     >
                         FACEBOOK
