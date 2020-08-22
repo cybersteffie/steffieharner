@@ -9,11 +9,6 @@ export default function() {
             <SEO lang="en" title="links" />
             <div style={{ minHeight: "600px", textAlign: "center" }}>
                 <div>
-                    <a href="/" className="btn">
-                        WWW
-                    </a>
-                </div>
-                <div>
                     <a
                         href="https://www.twitter.com/steffieharner"
                         className="btn"
