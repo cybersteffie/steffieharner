@@ -46,7 +46,6 @@ class IndexPage extends React.Component {
                     </div>
                 </div>
                 <PortfolioList />
-
                 <Contact />
             </Layout>
         );

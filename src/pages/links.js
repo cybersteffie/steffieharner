@@ -1,19 +1,27 @@
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-// import Contact from "../components/contact";
 
 export default function() {
     return (
-        <Layout>
+        <Layout hideNav="true">
             <SEO lang="en" title="links" />
             <div style={{ minHeight: "600px", textAlign: "center" }}>
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner"
+                        onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn"
                     >
                         BUY ME ☕
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://ko-fi.com/steffieharner/commissions"
+                        className="btn"
+                    >
+                        BOOK ME
                     </a>
                 </div>
                 <div>
