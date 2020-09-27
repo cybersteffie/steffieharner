@@ -35,6 +35,7 @@ class IndexPage extends React.Component {
                                         this.props.data.site.siteMetadata
                                             .headshot
                                     }
+                                    alt="Steffie Harner - Cyberpunk Girl in Tokyo - Software Developer"
                                 />
                             </div>
                             <div className="section-title">
