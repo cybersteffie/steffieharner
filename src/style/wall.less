@@ -1,137 +1,145 @@
 .wall {
-	animation: fadein 2s;
-	-moz-animation: fadein 2s;
-	/* Firefox */
-	-webkit-animation: fadein 2s;
-	/* Safari and Chrome */
-	-o-animation: fadein 2s;
-	/* Opera */
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
 
-	@keyframes fadein {
-		from {
-			opacity: 0;
-		}
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
 
-		to {
-			opacity: 1;
-		}
-	}
+        to {
+            opacity: 1;
+        }
+    }
 
-	@-moz-keyframes fadein {
+    @-moz-keyframes fadein {
+        /* Firefox */
+        from {
+            opacity: 0;
+        }
 
-		/* Firefox */
-		from {
-			opacity: 0;
-		}
+        to {
+            opacity: 1;
+        }
+    }
 
-		to {
-			opacity: 1;
-		}
-	}
+    @-webkit-keyframes fadein {
+        /* Safari and Chrome */
+        from {
+            opacity: 0;
+        }
 
-	@-webkit-keyframes fadein {
+        to {
+            opacity: 1;
+        }
+    }
 
-		/* Safari and Chrome */
-		from {
-			opacity: 0;
-		}
+    @-o-keyframes fadein {
+        /* Opera */
+        from {
+            opacity: 0;
+        }
 
-		to {
-			opacity: 1;
-		}
-	}
+        to {
+            opacity: 1;
+        }
+    }
 
-	@-o-keyframes fadein {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    position: relative;
+    height: 100vh;
 
-		/* Opera */
-		from {
-			opacity: 0;
-		}
+    .intro {
+        .headshot {
+            padding-top: 5rem;
 
-		to {
-			opacity: 1;
-		}
-	}
+            img {
+                text-align: center;
+                margin: 0 auto;
+                height: auto;
+                width: 30vw;
+                margin: 0 0 0 0%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                border-radius: 50%;
+            }
+        }
 
-	display: flex;
-	align-items: center;
-	flex-wrap: nowrap;
-	text-align: center;
-	position: relative;
-	height: 100vh;
+        svg {
+            margin: 0;
+            width: 350px;
+            height: 50px;
+            max-width: 500px;
+        }
 
-	.intro {
+        .tag-line {
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 50px;
+        }
+    }
 
+    svg {
+        margin: 0 auto;
+        width: 500px;
+        height: max-content;
+        max-width: 500px;
+    }
 
+    .social-buttons {
+        position: absolute;
+        left: 25px;
 
-		svg {
-			margin: 0;
-			width: 350px;
-			height: 50px;
-			max-width: 500px;
-		}
+        ul {
+            list-style: none;
 
-		.tag-line {
-			font-size: 15px;
-			font-weight: bold;
-			letter-spacing: 1px;
-			margin-bottom: 50px;
-		}
+            li {
+                margin: 5px 0;
 
+                img {
+                    opacity: 0.7;
+                    width: 48px;
+                    transition: opacity 0.25s;
+                }
 
-	}
-
-	svg {
-		margin: 0 auto;
-		width: 500px;
-		height: max-content;
-		max-width: 500px;
-	}
-
-	.social-buttons {
-		position: absolute;
-		left: 25px;
-
-		ul {
-			list-style: none;
-
-			li {
-				margin: 5px 0;
-
-				img {
-					opacity: 0.7;
-					width: 48px;
-					transition: opacity .25s;
-				}
-
-				&:hover {
-					img {
-						opacity: 1;
-					}
-				}
-			}
-		}
-	}
+                &:hover {
+                    img {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 800px) {
-	.wall {
-		.main-title {
-			svg {
-				height: 100px;
+    .wall {
+        .main-title {
+            svg {
+                height: 100px;
+            }
+        }
 
-			}
-		}
+        .social-buttons {
+            display: none;
+        }
 
-		.social-buttons {
-			display: none;
-		}
-
-		svg text {
-			font: bold 14px;
-			font-family: 'Rubik', sans-serif;
-			width: 500px;
-			max-width: 500px;
-		}
-	}
+        svg text {
+            font: bold 14px;
+            font-family: "Rubik", sans-serif;
+            width: 500px;
+            max-width: 500px;
+        }
+    }
 }

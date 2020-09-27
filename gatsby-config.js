@@ -4,6 +4,7 @@ const siteMetadata = {
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
+    headshot: `/images/headshot.png`,
     titleImage: `/images/wall.jpg`,
     introTag: `tokyo-based model | junior software developer`,
     description: `Tokyo-based cyberpunk-obsessed, freelance model & software engineer. \n\n よろしくお願いします。`,
