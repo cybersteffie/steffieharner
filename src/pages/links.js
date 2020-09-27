@@ -13,7 +13,7 @@ export default function() {
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn"
                     >
-                        BUY ME ☕
+                        BUY ME ☕️ PLZ
                     </a>
                 </div>
                 <div>
