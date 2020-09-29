@@ -15,13 +15,13 @@ export default function() {
                         🎙 WOMEN EMPOWERING WOMEN EVENT
                     </a>
                 </div>
-                {/* <div>
+                <div>
                     <a
                         href="https://ko-fi.com/steffieharner"
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn"
                     >
-                        BUY ME ☕️ PLZ
+                        ☕️ BUY ME KO-FI
                     </a>
                 </div>
                 <div>
@@ -29,15 +29,15 @@ export default function() {
                         href="https://ko-fi.com/steffieharner/commissions"
                         className="btn"
                     >
-                        BOOK ME
+                        💃 MODELING RATES
                     </a>
-                </div> */}
+                </div>
                 <div>
                     <a
                         href="https://www.youtube.com/steffieharner"
                         className="btn"
                     >
-                        YOUTUBE
+                        📺 YOUTUBE
                     </a>
                 </div>
                 <div>
@@ -45,25 +45,25 @@ export default function() {
                         href="https://www.twitter.com/steffieharner"
                         className="btn"
                     >
-                        TWITTER
+                        💬 TWITTER
                     </a>
                 </div>
-                <div>
+                {/* <div>
                     <a
                         href="https://www.tiktok.com/@steffieharner"
                         className="btn"
                     >
                         TIKTOK
                     </a>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                     <a
                         href="https://www.facebook.com/steffieharnerofficial"
                         className="btn"
                     >
                         FACEBOOK
                     </a>
-                </div>
+                </div> */}
             </div>
         </Layout>
     );
