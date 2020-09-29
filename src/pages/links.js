@@ -9,6 +9,14 @@ export default function() {
             <div style={{ minHeight: "600px", textAlign: "center" }}>
                 <div>
                     <a
+                        href="https://www.facebook.com/events/326268921789270"
+                        className="btn"
+                    >
+                        🎙 WOMEN EMPOWERING WOMEN EVENT
+                    </a>
+                </div>
+                {/* <div>
+                    <a
                         href="https://ko-fi.com/steffieharner"
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn"
@@ -23,6 +31,14 @@ export default function() {
                     >
                         BOOK ME
                     </a>
+                </div> */}
+                <div>
+                    <a
+                        href="https://www.youtube.com/steffieharner"
+                        className="btn"
+                    >
+                        YOUTUBE
+                    </a>
                 </div>
                 <div>
                     <a
@@ -30,14 +46,6 @@ export default function() {
                         className="btn"
                     >
                         TWITTER
-                    </a>
-                </div>
-                <div>
-                    <a
-                        href="https://www.youtube.com/steffieharner"
-                        className="btn"
-                    >
-                        YOUTUBE
                     </a>
                 </div>
                 <div>
