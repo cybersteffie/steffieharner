@@ -9,27 +9,11 @@ export default function() {
             <div style={{ minHeight: "600px", textAlign: "center" }}>
                 <div>
                     <a
-                        href="https://www.facebook.com/events/326268921789270"
-                        className="btn"
-                    >
-                        🎙 WOMEN EMPOWERING WOMEN EVENT
-                    </a>
-                </div>
-                <div>
-                    <a
                         href="https://ko-fi.com/steffieharner"
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn"
                     >
-                        ☕️ BUY ME KO-FI
-                    </a>
-                </div>
-                <div>
-                    <a
-                        href="https://ko-fi.com/steffieharner/commissions"
-                        className="btn"
-                    >
-                        💃 MODELING RATES
+                        ☕️ BUY ME COFFEE ^_^
                     </a>
                 </div>
                 <div>
@@ -38,6 +22,14 @@ export default function() {
                         className="btn"
                     >
                         📺 YOUTUBE
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://ko-fi.com/steffieharner/commissions"
+                        className="btn"
+                    >
+                        💃 MODELING RATES
                     </a>
                 </div>
                 <div>

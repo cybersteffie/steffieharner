@@ -48,11 +48,6 @@ const siteMetadata = {
             url: "https://www.instagram.com/steffieharner"
         },
         {
-            name: "Facebook",
-            icon: "/images/Facebook.svg",
-            url: "https://www.facebook.com/steffieharner"
-        },
-        {
             name: "Twitter",
             icon: "/images/Twitter.svg",
             url: "https://www.twitter.com/steffieharner"
@@ -61,6 +56,11 @@ const siteMetadata = {
             name: "Youtube",
             icon: "/images/Youtube.svg",
             url: "https://www.youtube.com/steffieharner"
+        },
+        {
+            name: "Facebook",
+            icon: "/images/Facebook.svg",
+            url: "https://www.facebook.com/steffieharner"
         },
         {
             name: "Github",
