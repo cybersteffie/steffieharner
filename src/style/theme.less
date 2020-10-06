@@ -203,6 +203,20 @@ h6 {
     &.disabled {
         opacity: 0.7;
     }
+
+    &.video {
+        background-color: #ccc;
+        animation: glow 1s infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+            box-shadow: 0 0 10px -10px #d5aef4;
+        }
+        to {
+            box-shadow: 0 0 10px 10px #aeb6f4;
+        }
+    }
 }
 
 .overlay-link {

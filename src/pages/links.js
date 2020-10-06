@@ -7,6 +7,15 @@ export default function() {
         <Layout hideNav="true">
             <SEO lang="en" title="links" />
             <div style={{ minHeight: "600px", textAlign: "center" }}>
+                <div style={{ paddingBottom: "1rem" }}>
+                    <a
+                        href="https://ko-fi.com/steffieharner"
+                        onclick="window.location.href='https://youtu.be/M3TDrycfm-o'"
+                        className="btn video"
+                    >
+                        NEW VIDEO 👅 EXTREME FOODS
+                    </a>
+                </div>
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner"
