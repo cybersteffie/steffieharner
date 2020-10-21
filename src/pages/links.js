@@ -27,6 +27,14 @@ export default function() {
                 </div>
                 <div>
                     <a
+                        href="https://ko-fi.com/steffieharner/commissions"
+                        className="btn"
+                    >
+                        💃 MODELING RATES
+                    </a>
+                </div>
+                <div>
+                    <a
                         href="https://www.youtube.com/steffieharner"
                         className="btn"
                     >
@@ -35,10 +43,10 @@ export default function() {
                 </div>
                 <div>
                     <a
-                        href="https://ko-fi.com/steffieharner/commissions"
+                        href="https://www.instagram.com/steffieharner"
                         className="btn"
                     >
-                        💃 MODELING RATES
+                        📱 INSTAGRAM
                     </a>
                 </div>
                 <div>
