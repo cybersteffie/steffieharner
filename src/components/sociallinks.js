@@ -7,7 +7,7 @@ function ListItem(props) {
     return (
         <a href={data.url} title={data.name} target="_blank">
             <li>
-                <img src={data.icon} alt={data.name} />
+                <img className="icon-social" src={data.icon} alt={data.name} />
             </li>
         </a>
     );
