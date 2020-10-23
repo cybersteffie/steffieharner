@@ -13,7 +13,7 @@ export default function() {
                         onclick="window.location.href='https://youtu.be/V8UjHd3PPYg'"
                         className="btn video"
                     >
-                        NEW VIDEO 🏠👉 TOKYO APARTMENT TOUR
+                        NEW VID 👉 MY TOKYO APT
                     </a>
                 </div>
                 <div>
