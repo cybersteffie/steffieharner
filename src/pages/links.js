@@ -9,11 +9,11 @@ export default function() {
             <div style={{ minHeight: "600px", textAlign: "center" }}>
                 <div style={{ paddingBottom: "1rem" }}>
                     <a
-                        href="https://youtu.be/M3TDrycfm-o"
-                        onclick="window.location.href='https://youtu.be/M3TDrycfm-o'"
+                        href="https://youtu.be/V8UjHd3PPYg"
+                        onclick="window.location.href='https://youtu.be/V8UjHd3PPYg'"
                         className="btn video"
                     >
-                        NEW VIDEO 👅 EXTREME FOODS
+                        NEW VIDEO 🏠👉 TOKYO APARTMENT TOUR
                     </a>
                 </div>
                 <div>
