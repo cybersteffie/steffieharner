@@ -35,7 +35,7 @@ export default function() {
                 </div>
                 <div>
                     <a
-                        href="https://www.youtube.com/steffieharner"
+                        href="https://www.youtube.com/steffieharner?sub_confirmation=1"
                         className="btn links"
                     >
                         📺 YOUTUBE
