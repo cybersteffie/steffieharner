@@ -9,11 +9,11 @@ export default function() {
             <div style={{ minHeight: "600px", textAlign: "center" }}>
                 <div style={{ paddingBottom: "1rem" }}>
                     <a
-                        href="https://youtu.be/tzexvpOL_pQ"
-                        onclick="window.location.href='https://youtu.be/tzexvpOL_pQ'"
+                        href="https://youtu.be/lzCbobanpl4"
+                        onclick="window.location.href='https://youtu.be/lzCbobanpl4'"
                         className="btn links video"
                     >
-                        NEW VID 👉 KONNYAKU PARK
+                        NEW VID 👉 SNAKE CAFE
                     </a>
                 </div>
                 <div>
