@@ -22,7 +22,7 @@ export default function() {
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn links"
                     >
-                        ☕️ GIVE ME CAFFEINE ^_^
+                        ☕️ SUPPORT MY WORK
                     </a>
                 </div>
                 <div>
@@ -31,6 +31,14 @@ export default function() {
                         className="btn links"
                     >
                         💃 MODELING RATES
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://www.amazon.jp/hz/wishlist/ls/247CCNYPN5OYW?ref_=wl_share"
+                        className="btn links"
+                    >
+                        ✨ AMAZON WISH LIST
                     </a>
                 </div>
                 <div>
