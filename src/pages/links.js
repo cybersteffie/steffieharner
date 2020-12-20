@@ -9,11 +9,11 @@ export default function() {
             <div style={{ minHeight: "600px", textAlign: "center" }}>
                 <div style={{ paddingBottom: "1rem" }}>
                     <a
-                        href="https://www.youtube.com/watch?v=lzCbobanpl4"
+                        href="https://www.youtube.com/watch?v=EySpvZgyQvs"
                         onclick="window.location.href='https://www.youtube.com/watch?v=lzCbobanpl4'"
                         className="btn links video"
                     >
-                        NEW VID 🐍 SNAKE CAFE
+                        NEW VID 👉 PHOTOSHOOT BTS
                     </a>
                 </div>
                 <div>
