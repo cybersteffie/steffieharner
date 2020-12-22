@@ -27,6 +27,15 @@ export default function() {
                 </div>
                 <div>
                     <a
+                    href="https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo"
+                    onclick="window.location.href='https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo'"
+                    className="btn links"
+                    >
+                        ✨ BUY PRINTS @ CYBERTOPIA
+                    </a>
+                </div>
+                <div>
+                    <a
                         href="https://ko-fi.com/steffieharner/commissions"
                         className="btn links"
                     >
