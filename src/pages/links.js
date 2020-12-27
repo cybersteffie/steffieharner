@@ -31,7 +31,7 @@ export default function() {
                     onclick="window.location.href='https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo'"
                     className="btn links"
                     >
-                        ✨ BUY PRINTS @ CYBERTOPIA
+                        👾 BUY MY PRINTS [CYBERTOPIA]
                     </a>
                 </div>
                 <div>
