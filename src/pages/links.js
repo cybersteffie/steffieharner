@@ -7,7 +7,7 @@ export default function() {
         <Layout hideNav="true">
             <SEO lang="en" title="links" />
             <div style={{ minHeight: "600px", textAlign: "center" }}>
-                <div style={{ paddingBottom: "1rem" }}>
+                {/* <div style={{ paddingBottom: "1rem" }}>
                     <a
                         href="https://www.youtube.com/watch?v=EySpvZgyQvs"
                         onclick="window.location.href='https://www.youtube.com/watch?v=lzCbobanpl4'"
@@ -15,7 +15,7 @@ export default function() {
                     >
                         NEW VID 👉 PHOTOSHOOT BTS
                     </a>
-                </div>
+                </div> */}
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner"
@@ -25,7 +25,7 @@ export default function() {
                         ☕️ SUPPORT MY WORK
                     </a>
                 </div>
-                <div>
+                {/* <div>
                     <a
                     href="https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo"
                     onclick="window.location.href='https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo'"
@@ -33,7 +33,7 @@ export default function() {
                     >
                         👾 BUY PRINTS [CYBERTOPIA]
                     </a>
-                </div>
+                </div> */}
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner/commissions"
@@ -42,20 +42,20 @@ export default function() {
                         💃 MODELING RATES
                     </a>
                 </div>
-                <div>
-                    <a
-                        href="https://www.twitter.com/steffieharner"
-                        className="btn links"
-                    >
-                     10% OFF DIAMOND MASKS WITH CODE "CYBERSTEFFIE"
-                    </a>
-                </div>
-                <div>
+                {/* <div>
                     <a
                         href="https://www.amazon.jp/hz/wishlist/ls/247CCNYPN5OYW?ref_=wl_share"
                         className="btn links"
                     >
                         ✨ AMAZON WISH LIST
+                    </a>
+                </div> */}
+                <div>
+                    <a
+                        href="https://www.deliriothelabel.com/shop"
+                        className="btn links"
+                    >
+                     💎 10% OFF DIAMOND MASKS WITH CODE "CYBERSTEFFIE"
                     </a>
                 </div>
                 <div>
