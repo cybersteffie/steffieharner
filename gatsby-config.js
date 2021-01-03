@@ -31,8 +31,12 @@ const siteMetadata = {
             url: "/portfolio"
         },
         {
-            name: "contact",
-            url: "/contact"
+            name: "bookings",
+            url: "https://ko-fi.com/steffieharner/commissions"
+        },
+        {
+            name: "support",
+            url: "https://ko-fi.com/steffieharner"
         }
     ],
     footerLinks: [
@@ -66,6 +70,11 @@ const siteMetadata = {
             name: "Github",
             icon: "/images/Github.svg",
             url: "https://www.github.com/steffieharner"
+        },
+        {
+            name: "Ko-Fi",
+            icon: "/images/ko-fi.svg",
+            url: "https://ko-fi.com/steffieharner/commissions"
         }
     ],
     contact: {

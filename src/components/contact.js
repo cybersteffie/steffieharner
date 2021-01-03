@@ -35,16 +35,20 @@ class Contact extends React.Component {
                 submitDisabled: true
             });
 
+            console.log(event);
+
             let name = encodeURI(this.dataName.value),
                 email = encodeURI(this.dataEmail.value),
                 message = encodeURI(this.dataMessage.value),
-                body = `name=${name}&email=${email}&message=${message}`;
+                body = `name=${name}&email=${email}&message=${message}&_replyto=${email}`;
 
             fetch(this.props.contact.api_url, {
                 method: "post",
+                encType: "multipart/form-data",
                 body: body
             })
                 .then(function(res) {
+                    console.log("hello")
                     return res.json();
                 })
                 .then(
@@ -121,11 +125,9 @@ class Contact extends React.Component {
                             <form>
                                 <div className="field">
                                     <label for="name">
-                                        <span className="label text-tertiary">
-                                            name
-                                        </span>
                                         <div className="input-border">
                                             <input
+                                                placeholder="your name"
                                                 type="text"
                                                 ref={c => (this.dataName = c)}
                                                 className="field-box"
@@ -138,11 +140,9 @@ class Contact extends React.Component {
                                 </div>
                                 <div className="field">
                                     <label for="email">
-                                        <span className="label text-tertiary">
-                                            email
-                                        </span>
                                         <div className="input-border">
                                             <input
+                                                placeholder="your email"
                                                 type="email"
                                                 ref={c => (this.dataEmail = c)}
                                                 className="field-box"
@@ -155,11 +155,10 @@ class Contact extends React.Component {
                                 </div>
                                 <div className="field">
                                     <label for="message">
-                                        <span className="label text-tertiary">
-                                            message
-                                        </span>
+
                                         <div className="input-border">
                                             <textarea
+                                                placeholder="your inquiry"
                                                 style={{ overflowY: "hidden" }}
                                                 ref={c =>
                                                     (this.dataMessage = c)

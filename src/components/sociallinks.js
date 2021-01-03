@@ -27,6 +27,7 @@ export default function() {
             }
         }
     `);
+
     const items = data.site.siteMetadata.social;
     let list = [];
     items.forEach(function(e, i) {

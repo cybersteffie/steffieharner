@@ -31,7 +31,7 @@ export default function() {
                     onclick="window.location.href='https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo'"
                     className="btn links"
                     >
-                        👾 BUY MY PRINTS [CYBERTOPIA]
+                        👾 BUY PRINTS [CYBERTOPIA]
                     </a>
                 </div>
                 <div>
@@ -40,6 +40,14 @@ export default function() {
                         className="btn links"
                     >
                         💃 MODELING RATES
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://www.twitter.com/steffieharner"
+                        className="btn links"
+                    >
+                     10% OFF DIAMOND MASKS WITH CODE "CYBERSTEFFIE"
                     </a>
                 </div>
                 <div>
@@ -74,6 +82,8 @@ export default function() {
                         💬 TWITTER
                     </a>
                 </div>
+
+
                 {/* <div>
                     <a
                         href="https://www.tiktok.com/@steffieharner"
