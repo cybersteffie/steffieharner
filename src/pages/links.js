@@ -25,7 +25,7 @@ export default function() {
                         ☕️ SUPPORT ME
                     </a>
                 </div>
-                <div>
+                {/* <div>
                     <a
                     href="https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo"
                     onclick="window.location.href='https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo'"
@@ -33,7 +33,7 @@ export default function() {
                     >
                         👾 BUY MY LED PRINTS
                     </a>
-                </div>
+                </div> */}
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner/commissions"
