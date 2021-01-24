@@ -1,5 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import { Canvas } from "react-three-fiber"
 
 export default function() {
     const query = useStaticQuery(graphql`

@@ -22,18 +22,18 @@ export default function() {
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn links"
                     >
-                        ☕️ SUPPORT MY WORK
+                        ☕️ SUPPORT ME
                     </a>
                 </div>
-                {/* <div>
+                <div>
                     <a
                     href="https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo"
                     onclick="window.location.href='https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo'"
                     className="btn links"
                     >
-                        👾 BUY PRINTS [CYBERTOPIA]
+                        👾 BUY MY LED PRINTS
                     </a>
-                </div> */}
+                </div>
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner/commissions"
@@ -55,7 +55,16 @@ export default function() {
                         href="https://www.deliriothelabel.com/shop"
                         className="btn links"
                     >
-                     💎 10% OFF DIAMOND MASKS WITH CODE "CYBERSTEFFIE"
+                     💎 10% OFF DIAMOND MASKS W/ CODE "CYBERSTEFFIE"
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://funkylama.jp/"
+                        onclick="window.location.href='https://funkylama.jp/'"
+                        className="btn links"
+                    >
+                     🌈 10% OFF FUNKYLLAMA W/ CODE "CYBERSTEFFIE"
                     </a>
                 </div>
                 <div>
