@@ -14,7 +14,7 @@ const CyberSteffie = () => {
   const name = 'Steffie'
   const [location, setLocation] = useState('San Francisco, CA, USA');
   const [disiplinary, setDisciplinary] = useState(['💻 developer', '💃 model', '🤳 creator']);
-  const [likes, setLikes] = useState(['👾', '🥷⚔️', '📸', '👅💦']);
+  const [likes, setLikes] = useState(['👾', '🥷🗡', '📸', '👅💦']);
 
 return(
     <div>
