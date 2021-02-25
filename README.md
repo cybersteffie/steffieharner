@@ -19,7 +19,7 @@ const CyberSteffie = () => {
 return(
     <div>
       <h1>I'm {name}, {disiplinary.map((item,i) => <span key={i}>{ (i && ', ') + item }</span>)}.</h1>
-      <p>Born in {birthplace}. Worked in digital marketing for 5+ years {location} in 2009.</p>
+      <p>Born in {birthplace}. Worked in ux/digital marketing for 5+ years {location} in 2009.</p>
       <p>Teleported to {setLocation('Neo-Tokyo, Japan')} in 2018.</p>
       <p className="strong">I 🖤 {likes.map((item,i) => <span key={i}>{ (i && ', ') + item }</span>)}.</p>
     </div>
