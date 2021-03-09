@@ -39,7 +39,7 @@ export default function() {
                         href="https://ko-fi.com/steffieharner/commissions"
                         className="btn links"
                     >
-                        💃 MODELING RATES
+                        🤝 WORK WITH ME
                     </a>
                 </div>
                 {/* <div>
