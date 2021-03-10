@@ -34,12 +34,19 @@ export default function() {
                         👾 BUY MY LED PRINTS
                     </a>
                 </div> */}
+               <div>
+                    <a
+                        href="mailto:hi@steffieharner.com"
+                        className="btn links"
+                    >
+                        📩 BUSINESS INQUIRIES
+                    </a>
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner/commissions"
                         className="btn links"
                     >
-                        🤝 WORK WITH ME
+                        🤝 MODELING/CONCEPT RATES
                     </a>
                 </div>
                 {/* <div>
