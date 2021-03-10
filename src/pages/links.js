@@ -98,8 +98,14 @@ export default function() {
                         💬 TWITTER
                     </a>
                 </div>
-
-
+                <div>
+                    <a
+                        href="https://paypal.me/steffieharner"
+                        className="btn links"
+                    >
+                        🤝 DONATE
+                    </a>
+                </div>
                 {/* <div>
                     <a
                         href="https://www.tiktok.com/@steffieharner"
