@@ -106,14 +106,14 @@ export default function() {
                         🤝 DONATE
                     </a>
                 </div>
-                {/* <div>
+                <div>
                     <a
-                        href="https://www.tiktok.com/@steffieharner"
+                        href="https://www.amazon.jp/hz/wishlist/ls/247CCNYPN5OYW?ref_=wl_share"
                         className="btn"
                     >
-                        TIKTOK
+                        🖤 AMAZON WISHLIST
                     </a>
-                </div> */}
+                </div>
                 {/* <div>
                     <a
                         href="https://www.facebook.com/steffieharnerofficial"
