@@ -13,7 +13,7 @@ export default function() {
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn links"
                     >
-                        SUPPORT ME
+                       ☕️ SUPPORT ME
                     </a>
                 </div>
                <div>
@@ -81,13 +81,13 @@ export default function() {
                         💬 TWITTER
                     </a>
                 </div>
-                <div>
+                {/* <div>
                     <a
                         href="https://paypal.me/steffieharner"
                         className="btn links"
                     >
                         🤝 DONATE
                     </a>
-                </div>
+                </div> */}
             </div>
         </Layout>)}
