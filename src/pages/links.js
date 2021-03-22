@@ -7,33 +7,15 @@ export default function() {
         <Layout hideNav="true">
             <SEO lang="en" title="links" />
             <div style={{ minHeight: "600px", textAlign: "center" }}>
-                {/* <div style={{ paddingBottom: "1rem" }}>
-                    <a
-                        href="https://www.youtube.com/watch?v=EySpvZgyQvs"
-                        onclick="window.location.href='https://www.youtube.com/watch?v=lzCbobanpl4'"
-                        className="btn links video"
-                    >
-                        NEW VID 👉 PHOTOSHOOT BTS
-                    </a>
-                </div> */}
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner"
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn links"
                     >
-                        ☕️ SUPPORT ME
+                        SUPPORT ME
                     </a>
                 </div>
-                {/* <div>
-                    <a
-                    href="https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo"
-                    onclick="window.location.href='https://cybertopia.world/products/led-canvas-steffie-harner-ft-future_vizion-wilmerlens-the-girl-with-the-cyber-tattoo'"
-                    className="btn links"
-                    >
-                        👾 BUY MY LED PRINTS
-                    </a>
-                </div> */}
                <div>
                     <a
                         href="mailto:hi@steffieharner.com"
@@ -41,6 +23,7 @@ export default function() {
                     >
                         📩 BUSINESS INQUIRIES
                     </a>
+                </div>
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner/commissions"
@@ -49,14 +32,14 @@ export default function() {
                         🤝 MODELING/CONCEPT RATES
                     </a>
                 </div>
-                {/* <div>
+                <div>
                     <a
                         href="https://www.amazon.jp/hz/wishlist/ls/247CCNYPN5OYW?ref_=wl_share"
                         className="btn links"
                     >
                         ✨ AMAZON WISH LIST
                     </a>
-                </div> */}
+                </div>
                 <div>
                     <a
                         href="https://www.deliriothelabel.com/shop"
@@ -106,23 +89,5 @@ export default function() {
                         🤝 DONATE
                     </a>
                 </div>
-                <div>
-                    <a
-                        href="https://www.amazon.jp/hz/wishlist/ls/247CCNYPN5OYW?ref_=wl_share"
-                        className="btn"
-                    >
-                        🖤 AMAZON WISHLIST
-                    </a>
-                </div>
-                {/* <div>
-                    <a
-                        href="https://www.facebook.com/steffieharnerofficial"
-                        className="btn"
-                    >
-                        FACEBOOK
-                    </a>
-                </div> */}
             </div>
-        </Layout>
-    );
-}
+        </Layout>)}

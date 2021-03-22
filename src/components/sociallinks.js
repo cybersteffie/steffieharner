@@ -5,7 +5,7 @@ function ListItem(props) {
     const data = props.data;
 
     return (
-        <a href={data.url} title={data.name} target="_blank">
+        <a href={data.url} title={data.name} rel="noopener noreferrer" target="_blank">
             <li>
                 <img className="icon-social" src={data.icon} alt={data.name} />
             </li>

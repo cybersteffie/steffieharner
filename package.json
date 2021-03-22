@@ -26,7 +26,6 @@
 		"react-dom": "^16.8.6",
 		"react-helmet": "^5.2.1",
 		"react-sidebar": "^3.0.2",
-		"react-three-fiber": "^5.3.19",
 		"three": "^0.126.0"
 	},
 	"devDependencies": {
