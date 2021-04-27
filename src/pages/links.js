@@ -7,15 +7,33 @@ export default function() {
         <Layout hideNav="true">
             <SEO lang="en" title="links" />
             <div style={{ minHeight: "600px", textAlign: "center" }}>
+            <h3>SUPPORT ME</h3>
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner"
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn links"
                     >
-                       ☕️ SUPPORT ME
+                       ☕️ KO-FI / MEMBERS ONLY CONTENT
                     </a>
                 </div>
+                <div>
+                    <a
+                        href="https://paypal.me/steffieharner"
+                        className="btn links"
+                    >
+                        🤝 PAYPAL
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://www.amazon.jp/hz/wishlist/ls/247CCNYPN5OYW?ref_=wl_share"
+                        className="btn links"
+                    >
+                        ✨ AMAZON WISH LIST
+                    </a>
+                </div>
+                <h3>WORK WITH ME</h3>
                <div>
                     <a
                         href="mailto:hi@steffieharner.com"
@@ -32,31 +50,7 @@ export default function() {
                         🤝 MODELING/CONCEPT RATES
                     </a>
                 </div>
-                <div>
-                    <a
-                        href="https://www.amazon.jp/hz/wishlist/ls/247CCNYPN5OYW?ref_=wl_share"
-                        className="btn links"
-                    >
-                        ✨ AMAZON WISH LIST
-                    </a>
-                </div>
-                <div>
-                    <a
-                        href="https://www.deliriothelabel.com/shop"
-                        className="btn links"
-                    >
-                     💎 10% OFF DIAMOND MASKS W/ CODE "CYBERSTEFFIE"
-                    </a>
-                </div>
-                <div>
-                    <a
-                        href="https://funkylama.jp/"
-                        onclick="window.location.href='https://funkylama.jp/'"
-                        className="btn links"
-                    >
-                     🌈 10% OFF FUNKYLLAMA W/ CODE "CYBERSTEFFIE"
-                    </a>
-                </div>
+                <h3>SOCIAL</h3>
                 <div>
                     <a
                         href="https://www.youtube.com/steffieharner?sub_confirmation=1"
@@ -81,13 +75,25 @@ export default function() {
                         💬 TWITTER
                     </a>
                 </div>
-                {/* <div>
+
+<h4>SHOP + DISCOUNT CODES</h4>
+
+<div>
                     <a
-                        href="https://paypal.me/steffieharner"
+                        href="https://www.deliriothelabel.com/shop"
                         className="btn links"
                     >
-                        🤝 DONATE
+                     💎 10% OFF DIAMOND MASKS W/ CODE "CYBERSTEFFIE"
                     </a>
-                </div> */}
+                </div>
+                <div>
+                    <a
+                        href="https://funkylama.jp/"
+                        onclick="window.location.href='https://funkylama.jp/'"
+                        className="btn links"
+                    >
+                     🌈 10% OFF FUNKYLLAMA W/ CODE "CYBERSTEFFIE"
+                    </a>
+                </div>
             </div>
         </Layout>)}
