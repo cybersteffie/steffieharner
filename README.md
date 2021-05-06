@@ -19,8 +19,10 @@ const CyberSteffie = () => {
 return(
     <div>
       <h1>I'm {name}, {disiplinary.map((item,i) => <span key={i}>{ (i && ', ') + item }</span>)}.</h1>
-      <p>Born in {birthplace}. Worked in ux/digital marketing for 5+ years {location} in 2009.</p>
-      <p>Teleported to {setLocation('Neo-Tokyo, Japan')} in 2018.</p>
+      <p>1991 - Born in {birthplace}.</p>
+      <p>2013 - Worked in ux/digital marketing for 5+ years in {location}.</p>
+      <p>2016 - Teleported to {setLocation('Neo-Tokyo, Japan')} to fufill childhood dreams.</p>
+      <p>2018 - Founded @startupladyjp - a community for female & non-binary entreprenuers & freelancers.</p>
       <p className="strong">I 🖤 {likes.map((item,i) => <span key={i}>{ (i && ', ') + item }</span>)}.</p>
     </div>
   );
