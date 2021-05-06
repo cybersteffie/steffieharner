@@ -10,17 +10,17 @@ import React, { useState } from 'react';
 //      \/            \/                     \/ 
 
 const CyberSteffie = () => {
-  const birthPlace = 'Albuquerque, New Mexico, USA';
   const [name, setName] = 'Stephanie Victoria Velarde Pardo Harner'
-  const [location, setLocation] = useState('San Francisco, CA, USA');
+  const hometown = 'Albuquerque, USA';
+  const [location, setLocation] = useState(hometown);
   const [disiplinary, setDisciplinary] = useState(['💻 developer', '💃 model', '🤳 creator']);
   const [likes, setLikes] = useState(['👾', '🥷🗡', '📸', '👅💦']);
 
 return(
     <div>
-      <h1>I'm {name}, known as {setName('Steffie Harner')}, {disiplinary.map((item,i) => <span key={i}>{ (i && ', ') + item }</span>)}.</h1>
-      <p>1991 - Born in {birthplace}.</p>
-      <p>2013 - Worked in ux/digital marketing for 5+ years in {location}.</p>
+      <p>1991 - Born in {location} as {name}.</p>
+      <p>1998 - Rebranded as setName('Steffie').</p>
+      <p>2013 - Worked in ux/digital marketing for 5+ years in {setLocation('San Francisco, USA')}.</p>
       <p>2016 - Teleported to {setLocation('Neo-Tokyo, Japan')} to fufill childhood dreams.</p>
       <p>2018 - Founded <a href="https://instagram.com/startupladyjp">@startupladyjp</a> - a community for female & non-binary entreprenuers & freelancers.</p>
       <p className="strong">I 🖤 {likes.map((item,i) => <span key={i}>{ (i && ', ') + item }</span>)}.</p>
