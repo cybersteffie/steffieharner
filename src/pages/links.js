@@ -7,7 +7,7 @@ export default function() {
         <Layout hideNav="true">
             <SEO lang="en" title="links" />
             <div style={{ minHeight: "600px", textAlign: "center" }}>
-            <h3>SUPPORT ME</h3>
+            <h4>SUPPORT ME</h4>
                 <div>
                     <a
                         href="https://ko-fi.com/steffieharner"
@@ -19,21 +19,13 @@ export default function() {
                 </div>
                 <div>
                     <a
-                        href="https://paypal.me/steffieharner"
-                        className="btn links"
-                    >
-                        🤝 PAYPAL
-                    </a>
-                </div>
-                <div>
-                    <a
                         href="https://www.amazon.jp/hz/wishlist/ls/247CCNYPN5OYW?ref_=wl_share"
                         className="btn links"
                     >
                         ✨ AMAZON WISH LIST
                     </a>
                 </div>
-                <h3>WORK WITH ME</h3>
+                <h4>WORK WITH ME</h4>
                <div>
                     <a
                         href="mailto:hi@steffieharner.com"
@@ -50,7 +42,15 @@ export default function() {
                         🤝 MODELING/CONCEPT RATES
                     </a>
                 </div>
-                <h3>SOCIAL</h3>
+                <h4>SOCIAL</h4>
+                <div>
+                    <a
+                        href="https://foundation.app/steffieharner"
+                        className="btn links"
+                    >
+                        ▲●■ FOUNDATION
+                    </a>
+                </div>
                 <div>
                     <a
                         href="https://www.youtube.com/steffieharner?sub_confirmation=1"
@@ -75,15 +75,13 @@ export default function() {
                         💬 TWITTER
                     </a>
                 </div>
-
-<h4>SHOP + DISCOUNT CODES</h4>
-
-<div>
+                <h4>SHOP + "CYBERSTEFFIE" DISCOUNT CODE</h4>
+                <div>
                     <a
                         href="https://www.deliriothelabel.com/shop"
                         className="btn links"
                     >
-                     💎 10% OFF DIAMOND MASKS W/ CODE "CYBERSTEFFIE"
+                     💎 10% OFF DIAMOND MASKS
                     </a>
                 </div>
                 <div>
@@ -92,7 +90,7 @@ export default function() {
                         onclick="window.location.href='https://funkylama.jp/'"
                         className="btn links"
                     >
-                     🌈 10% OFF FUNKYLLAMA W/ CODE "CYBERSTEFFIE"
+                     🌈 10% OFF FUNKYLLAMA
                     </a>
                 </div>
             </div>
