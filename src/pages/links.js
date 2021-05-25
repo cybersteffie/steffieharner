@@ -10,11 +10,27 @@ export default function() {
             <h4>SUPPORT ME</h4>
                 <div>
                     <a
+                        href="https://foundation.app/steffieharner"
+                        className="btn links"
+                    >
+                        ▲●■ FOUNDATION
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://ko-fi.com/steffieharner/commissions"
+                        className="btn links"
+                    >
+                        🤝 MODELING/CONCEPT RATES
+                    </a>
+                </div>
+                <div>
+                    <a
                         href="https://ko-fi.com/steffieharner"
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn links"
                     >
-                       ☕️ KO-FI / MEMBERS ONLY CONTENT
+                       ☕️ KO-FI
                     </a>
                 </div>
                 <div>
@@ -34,23 +50,7 @@ export default function() {
                         📩 BUSINESS INQUIRIES
                     </a>
                 </div>
-                <div>
-                    <a
-                        href="https://ko-fi.com/steffieharner/commissions"
-                        className="btn links"
-                    >
-                        🤝 MODELING/CONCEPT RATES
-                    </a>
-                </div>
                 <h4>SOCIAL</h4>
-                <div>
-                    <a
-                        href="https://foundation.app/steffieharner"
-                        className="btn links"
-                    >
-                        ▲●■ FOUNDATION
-                    </a>
-                </div>
                 <div>
                     <a
                         href="https://www.youtube.com/steffieharner?sub_confirmation=1"
