@@ -18,14 +18,6 @@ export default function() {
                 </div>
                 <div>
                     <a
-                        href="https://ko-fi.com/steffieharner/commissions"
-                        className="btn links"
-                    >
-                        🤝 MODELING/CONCEPT RATES
-                    </a>
-                </div>
-                <div>
-                    <a
                         href="https://ko-fi.com/steffieharner"
                         onclick="window.location.href='https://ko-fi.com/steffieharner'"
                         className="btn links"
@@ -48,6 +40,14 @@ export default function() {
                         className="btn links"
                     >
                         📩 BUSINESS INQUIRIES
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://ko-fi.com/steffieharner/commissions"
+                        className="btn links"
+                    >
+                        🤝 MODELING/CONCEPT RATES
                     </a>
                 </div>
                 <h4>SOCIAL</h4>
