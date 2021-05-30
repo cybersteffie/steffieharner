@@ -10,17 +10,20 @@ import React, { useState } from 'react';
 //      \/            \/                     \/ 
 
 const CyberSteffie = () => {
-  const birthplace = 'Albuquerque, New Mexico, USA';
-  const name = 'Steffie'
-  const [location, setLocation] = useState('San Francisco, CA, USA');
+  const [name, setName] = useState('Stephanie Victoria Velarde Pardo Harner');
+  const hometown = 'Albuquerque, USA';
+  const [location, setLocation] = useState(hometown);
   const [disiplinary, setDisciplinary] = useState(['💻 developer', '💃 model', '🤳 creator']);
   const [likes, setLikes] = useState(['👾', '🥷🗡', '📸', '👅💦']);
 
 return(
     <div>
-      <h1>I'm {name}, {disiplinary.map((item,i) => <span key={i}>{ (i && ', ') + item }</span>)}.</h1>
-      <p>Born in {birthplace}. Worked in ux/digital marketing for 5+ years {location} in 2009.</p>
-      <p>Teleported to {setLocation('Neo-Tokyo, Japan')} in 2018.</p>
+      <p>1991 - Born in {location} as {name}.</p>
+      <p>1998 - Rebranded as {setName('Steffie')}.</p>
+      <p>2012 - Worked for a wellness tech startup for 3 years in {setLocation('San Francisco, USA')}.</p>
+      <p>2013 - Graduated University of San Francisco with a B.S. in Kinesiology, Minor Psychology/Neuroscience.</p>
+      <p>2016 - Teleported to {setLocation('Neo-Tokyo, Japan')} to fufill childhood dreams.</p>
+      <p>2018 - Founded <a href="https://instagram.com/startupladyjp">@startupladyjp</a> - a community for womxn entreprenuers & freelancers.</p>
       <p className="strong">I 🖤 {likes.map((item,i) => <span key={i}>{ (i && ', ') + item }</span>)}.</p>
     </div>
   );
