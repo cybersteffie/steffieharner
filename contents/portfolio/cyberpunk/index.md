@@ -1,5 +1,5 @@
 ---
-title: CYBERPUNK PORTRAITS
+title: NEON PORTRAITS
 description: concept photography set in the dystopian future
 date: 2019-06-28
 template: portfolio

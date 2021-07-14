@@ -12,4 +12,6 @@ Steffie was born in Albuquerque, New Mexico and grew up between Manila, Philippi
 
 **In 2018**, seeking to do female empowerment, she co-founded [Startup Lady Japan](https://www.startuplady.org/), a community that supports female & non-binary entrepreneurs and freelancers in Tokyo and beyond.
 
-**In 2019**, after joining a full-stack Javascript bootcamp [Code Chrysalis](https://www.codechrysalis.io/), she dove into the world of digital art and software development. She currently works for Code Chrysalis as a front-end developer.
+**In 2019**, after joining a full-stack Javascript bootcamp [Code Chrysalis](https://www.codechrysalis.io/), she dove into the world of digital art and software development. She currently worked for Code Chrysalis as a front-end developer & growth hacker.
+
+**In 2021**, she quit her fulltime employment to freelance as a developer & creative technologist. Clients include [DMBZ](https://dmbz.jp/) and [Haiku Cyber Range](https://haikurange.com/).

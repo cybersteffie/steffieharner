@@ -19,6 +19,7 @@ class IndexPage extends React.Component {
     render() {
         return (
             <Layout placeholder={false}>
+                
                 <SEO
                     lang="en"
                     title={this.props.data.site.siteMetadata.title}

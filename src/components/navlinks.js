@@ -93,6 +93,7 @@ class ThemeSwitchButton extends React.Component {
                         </div>
                     </div>
                 </li>
+                <a className="btn">WORK WITH ME</a>
             </React.Fragment>
         );
     }
