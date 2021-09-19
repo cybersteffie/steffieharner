@@ -10,7 +10,7 @@ import React, { useState } from 'react';
 //      \/            \/                     \/ 
 
 const CyberSteffie = () => {
-  const [name, setName] = useState('Stephanie Victoria Velarde Pardo Harner');
+  const [name, setName] = useState('Steffie Harner');
   const hometown = 'Albuquerque, USA';
   const [location, setLocation] = useState(hometown);
   const [disiplinary, setDisciplinary] = useState(['💻 developer', '💃 model', '🤳 creator']);
