@@ -18,8 +18,8 @@ export default function() {
                 </div>
                 <div>
                     <a
-                        href="https://ko-fi.com/steffieharner"
-                        onclick="window.location.href='https://ko-fi.com/steffieharner'"
+                        href="https://ko-fi.com/cybersteffie"
+                        onclick="window.location.href='https://ko-fi.com/cybersteffie'"
                         className="btn links"
                     >
                        ☕️ KO-FI
@@ -44,7 +44,7 @@ export default function() {
                 </div>
                 <div>
                     <a
-                        href="https://ko-fi.com/steffieharner/commissions"
+                        href="https://ko-fi.com/cybersteffie/commissions"
                         className="btn links"
                     >
                         🤝 MODELING/CONCEPT RATES
@@ -53,7 +53,7 @@ export default function() {
                 <h4>SOCIAL</h4>
                 <div>
                     <a
-                        href="https://www.youtube.com/steffieharner?sub_confirmation=1"
+                        href="https://www.youtube.com/cybersteffie?sub_confirmation=1"
                         className="btn links"
                     >
                         📺 YOUTUBE
@@ -61,7 +61,7 @@ export default function() {
                 </div>
                 <div>
                     <a
-                        href="https://www.instagram.com/steffieharner"
+                        href="https://www.instagram.com/cybersteffie"
                         className="btn links"
                     >
                         📱 INSTAGRAM
@@ -69,7 +69,7 @@ export default function() {
                 </div>
                 <div>
                     <a
-                        href="https://www.twitter.com/steffieharner"
+                        href="https://www.twitter.com/cybersteffie"
                         className="btn links"
                     >
                         💬 TWITTER

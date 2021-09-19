@@ -1,6 +1,6 @@
 const siteMetadata = {
     title: `STEFFIE HARNER | Tokyo-based cyberpunk model & software engineer`,
-    siteUrl: `https://steffieharner.netlify.com`,
+    siteUrl: `https://cybersteffie.netlify.com`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
@@ -8,7 +8,7 @@ const siteMetadata = {
     titleImage: `/images/wall.jpg`,
     introTag: `tokyo-based model | concept artist | developer`,
     description: `Tokyo-based cyberpunk-obsessed, freelance model & software engineer. \n\n よろしくお願いします。`,
-    author: `@steffieharner`,
+    author: `@cybersteffie`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
@@ -32,11 +32,11 @@ const siteMetadata = {
         },
         {
             name: "bookings",
-            url: "https://ko-fi.com/steffieharner/commissions"
+            url: "https://ko-fi.com/cybersteffie/commissions"
         },
         {
             name: "support",
-            url: "https://ko-fi.com/steffieharner"
+            url: "https://ko-fi.com/cybersteffie"
         }
     ],
     footerLinks: [
@@ -49,22 +49,22 @@ const siteMetadata = {
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "https://www.instagram.com/steffieharner"
+            url: "https://www.instagram.com/cybersteffie"
         },
         {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "https://www.twitter.com/steffieharner"
+            url: "https://www.twitter.com/cybersteffie"
         },
         {
             name: "Youtube",
             icon: "/images/Youtube.svg",
-            url: "https://www.youtube.com/steffieharner"
+            url: "https://www.youtube.com/cybersteffie"
         },
         {
-            name: "Facebook",
-            icon: "/images/Facebook.svg",
-            url: "https://www.facebook.com/steffieharner"
+            name: "Twitch",
+            icon: "/images/Twitch.svg",
+            url: "https://twitch.tv/cybersteffie"
         },
         {
             name: "Github",
