@@ -1,8 +1,8 @@
 const siteMetadata = {
-    title: `STEFFIE HARNER | Tokyo-based cyberpunk-obsessed, freelance creator & ux engineer`,
+    title: `CYBER STEFFIE | Tokyo-based cyberpunk-obsessed, freelance creator & ux engineer`,
     siteUrl: `https://cybersteffie.io`,
     capitalizeTitleOnHome: false,
-    logo: `/images/logo.png`,
+    logo: `/images/logo-new.png`,
     icon: `/images/icon.png`,
     headshot: `/images/cybersteffie.jpg`,
     titleImage: `/images/wall.jpg`,
@@ -14,10 +14,6 @@ const siteMetadata = {
     darkmode: true,
     switchTheme: true,
     navLinks: [
-        {
-            name: "home",
-            url: "/"
-        },
         {
             name: "about",
             url: "/about"
@@ -75,7 +71,7 @@ const siteMetadata = {
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
         api_url: "",
-        description: `for model rates, business inquiries, collaboration requests ー by email only please! `,
+        description: `for business inquiries, collaboration requests ー by email please! `,
         mail: "hi@steffieharner.com"
     }
     // this is optional. you can uncomment this if you use disqus

@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
                                 />
                             </div>
                             <div className="section-title">
-                                <SectionTitle title="i'm steffie harner ☆ " />
+                                <SectionTitle title="i'm @cybersteffie ☆ " />
                             </div>
                         </div>
                         <p className="tag-line text-secondary">
