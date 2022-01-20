@@ -1,13 +1,13 @@
 const siteMetadata = {
-    title: `STEFFIE HARNER | Tokyo-based cyberpunk model & software engineer`,
-    siteUrl: `https://cybersteffie.netlify.com`,
+    title: `STEFFIE HARNER | Tokyo-based cyberpunk-obsessed, freelance creator & ux engineer`,
+    siteUrl: `https://cybersteffie.io`,
     capitalizeTitleOnHome: false,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
-    headshot: `/images/headshot.png`,
+    headshot: `/images/cybersteffie.jpg`,
     titleImage: `/images/wall.jpg`,
-    introTag: `tokyo-based model | concept artist | developer`,
-    description: `Tokyo-based cyberpunk-obsessed, freelance model & software engineer. \n\n よろしくお願いします。`,
+    introTag: `tokyo-based creator | ux engineer | streamer`,
+    description: `Tokyo-based cyberpunk-obsessed, freelance creator & ux engineer. \n\n よろしくお願いします。`,
     author: `@cybersteffie`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -47,6 +47,11 @@ const siteMetadata = {
     ],
     social: [
         {
+            name: "Twitch",
+            icon: "/images/Twitch.svg",
+            url: "https://twitch.tv/cybersteffie"
+        },
+        {
             name: "Instagram",
             icon: "/images/Instagram.svg",
             url: "https://www.instagram.com/cybersteffie"
@@ -60,11 +65,6 @@ const siteMetadata = {
             name: "Youtube",
             icon: "/images/Youtube.svg",
             url: "https://www.youtube.com/cybersteffie"
-        },
-        {
-            name: "Twitch",
-            icon: "/images/Twitch.svg",
-            url: "https://twitch.tv/cybersteffie"
         },
         {
             name: "Github",

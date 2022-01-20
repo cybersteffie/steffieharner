@@ -7,7 +7,7 @@ export default function() {
         <Layout hideNav="true">
             <SEO lang="en" title="links" />
             <div style={{ minHeight: "600px", textAlign: "center" }}>
-            <h4>SUPPORT ME</h4>
+                <h4>SUPPORT ME</h4>
                 <div>
                     <a
                         href="https://foundation.app/steffieharner"
@@ -22,7 +22,7 @@ export default function() {
                         onclick="window.location.href='https://ko-fi.com/cybersteffie'"
                         className="btn links"
                     >
-                       ☕️ KO-FI
+                        <span role="img">☕️</span> KO-FI
                     </a>
                 </div>
                 <div>
@@ -30,16 +30,13 @@ export default function() {
                         href="https://www.amazon.jp/hz/wishlist/ls/247CCNYPN5OYW?ref_=wl_share"
                         className="btn links"
                     >
-                        ✨ AMAZON WISH LIST
+                        <span role="img">✨</span> AMAZON WISH LIST
                     </a>
                 </div>
                 <h4>WORK WITH ME</h4>
-               <div>
-                    <a
-                        href="mailto:hi@steffieharner.com"
-                        className="btn links"
-                    >
-                        📩 BUSINESS INQUIRIES
+                <div>
+                    <a href="mailto:hi@steffieharner.com" className="btn links">
+                        <span role="img">📩</span> BUSINESS INQUIRIES
                     </a>
                 </div>
                 <div>
@@ -47,7 +44,7 @@ export default function() {
                         href="https://ko-fi.com/cybersteffie/commissions"
                         className="btn links"
                     >
-                        🤝 MODELING/CONCEPT RATES
+                        <span role="img">🤝</span> MODELING RATES
                     </a>
                 </div>
                 <h4>SOCIAL</h4>
@@ -56,7 +53,7 @@ export default function() {
                         href="https://www.youtube.com/cybersteffie?sub_confirmation=1"
                         className="btn links"
                     >
-                        📺 YOUTUBE
+                        <span role="img">📺</span> YOUTUBE
                     </a>
                 </div>
                 <div>
@@ -64,7 +61,7 @@ export default function() {
                         href="https://www.instagram.com/cybersteffie"
                         className="btn links"
                     >
-                        📱 INSTAGRAM
+                        <span role="img">📱</span> INSTAGRAM
                     </a>
                 </div>
                 <div>
@@ -72,7 +69,7 @@ export default function() {
                         href="https://www.twitter.com/cybersteffie"
                         className="btn links"
                     >
-                        💬 TWITTER
+                        <span role="img">💬</span> TWITTER
                     </a>
                 </div>
                 <h4>SHOP + "CYBERSTEFFIE" DISCOUNT CODE</h4>
@@ -81,7 +78,7 @@ export default function() {
                         href="https://www.deliriothelabel.com/shop"
                         className="btn links"
                     >
-                     💎 10% OFF DIAMOND MASKS
+                        <span role="img">💎</span> 10% OFF DIAMOND MASKS
                     </a>
                 </div>
                 <div>
@@ -90,8 +87,10 @@ export default function() {
                         onclick="window.location.href='https://funkylama.jp/'"
                         className="btn links"
                     >
-                     🌈 10% OFF FUNKYLLAMA
+                        <span role="img">🌈</span> 10% OFF FUNKYLLAMA
                     </a>
                 </div>
             </div>
-        </Layout>)}
+        </Layout>
+    );
+}

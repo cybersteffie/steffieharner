@@ -19,7 +19,6 @@ class IndexPage extends React.Component {
     render() {
         return (
             <Layout placeholder={false}>
-                
                 <SEO
                     lang="en"
                     title={this.props.data.site.siteMetadata.title}
@@ -36,7 +35,7 @@ class IndexPage extends React.Component {
                                         this.props.data.site.siteMetadata
                                             .headshot
                                     }
-                                    alt="Steffie Harner - Cyberpunk Girl in Tokyo - Software Developer"
+                                    alt="Steffie Harner @cybersteffie - Cyberpunk Model in Tokyo - Software Developer"
                                 />
                             </div>
                             <div className="section-title">
@@ -46,15 +45,13 @@ class IndexPage extends React.Component {
                         <p className="tag-line text-secondary">
                             {this.props.data.site.siteMetadata.introTag}
                         </p>
-
                         <a href="#portfolio" className="btn">
-                            SEE WORKS
+                            SEE PORTRAITS
                         </a>
                     </div>
                     <div className="social-buttons">
-                        <SocialLinks />
-                    </div>
-                </div>
+                            <SocialLinks />
+                        </div>                </div>
                 <PortfolioList />
                 <Contact />
             </Layout>

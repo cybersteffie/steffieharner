@@ -48,7 +48,7 @@ class Contact extends React.Component {
                 body: body
             })
                 .then(function(res) {
-                    console.log("hello")
+                    console.log("hello :3");
                     return res.json();
                 })
                 .then(
@@ -155,7 +155,6 @@ class Contact extends React.Component {
                                 </div>
                                 <div className="field">
                                     <label for="message">
-
                                         <div className="input-border">
                                             <textarea
                                                 placeholder="your inquiry"

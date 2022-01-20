@@ -2,7 +2,7 @@
 	"name": "gatsby-starter-elemental",
 	"description": "A simple starter to get up and developing quickly with Gatsby",
 	"version": "0.1.0",
-	"author": "Akshay <hi@akzhy.com>",
+	"author": "Akshay <hi@akzhy.com>, Steffie <hi@cybersteffie.io>",
 	"dependencies": {
 		"gatsby": "^2.10.4",
 		"gatsby-custom-md": "^1.0.2",

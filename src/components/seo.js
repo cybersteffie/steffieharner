@@ -70,7 +70,10 @@ function SEO({ description, lang, meta, title, image }) {
                     name: `og:image`,
                     content: ogImage
                 },
-                { name: 'google-site-verification', content: 'uooldHAC5kNxzZpkh3nEc-WeWGAQUMRAwzXDIchczZQ' }
+                {
+                    name: "google-site-verification",
+                    content: "uooldHAC5kNxzZpkh3nEc-WeWGAQUMRAwzXDIchczZQ"
+                }
             ].concat(meta)}
         />
     );
