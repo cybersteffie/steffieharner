@@ -65,7 +65,7 @@ const siteMetadata = {
         {
             name: "Github",
             icon: "/images/Github.svg",
-            url: "https://www.github.com/steffieharner"
+            url: "https://www.github.com/cybersteffie"
         }
     ],
     contact: {
