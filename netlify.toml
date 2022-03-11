@@ -26,8 +26,8 @@ package = "@netlify/plugin-sitemap"
 
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
-  from = "/"
-  to = "https://cybersteffie.io"
+  from = ""
+  to = ""
   status = 200
   force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
